@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm:*)",
+      "Bash(npx:*)",
+      "Bash(node:*)",
+      "Bash(git:*)",
+      "Bash(python:*)",
+      "Bash(pytest:*)",
+      "Bash(pip:*)",
+      "Read",
+      "Write",
+      "Edit"
+    ]
+  },
+  "skills": {
+    "enabled": true,
+    "autoActivate": true
+  },
+  "extraKnownMarketplaces": {
+    "claude-code-plugins-plus": {
+      "source": {
+        "source": "github",
+        "repo": "jeremylongshore/claude-code-plugins-plus-skills"
+      }
+    }
+  }
+}
