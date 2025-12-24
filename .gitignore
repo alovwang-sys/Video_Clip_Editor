@@ -103,3 +103,7 @@ coverage.xml
 *.bak
 *.tmp
 *.temp
+
+
+/backend/outputs
+/backend/uploads
